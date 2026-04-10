@@ -180,7 +180,10 @@ class _HeroText extends StatelessWidget {
             _OutlineButton(
               label: "Download CV",
               icon: Icons.download_outlined,
-              onTap: () => launchUrl(Uri.parse("resume.pdf"), mode: LaunchMode.externalApplication),
+              onTap: () => launchUrl(
+                Uri.parse("https://drive.google.com/uc?export=download&id=1vdfyU5W__3t3R2lfZBv8gFN8az6RwipV"),
+                mode: LaunchMode.externalApplication,
+              ),
             ),
           ],
         ).animate().fadeIn(delay: 800.ms),
